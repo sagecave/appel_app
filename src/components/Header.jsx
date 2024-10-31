@@ -6,15 +6,15 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
   return (
-    <header className="col-start-2 col-end-5">
+    <header className="col-start-2 col-end-5 ">
       <div>
-        <nav className="flex flex-row justify-between items-center">
+        <nav className="flex flex-row justify-between items-center mt-10 relative">
           <a href="#">
             <div>
-              <IoLogoApple className="text-5xl" />
+              <IoLogoApple className="text-6xl" />
             </div>
           </a>
-          <ol className="flex flex-row gap-5 text-l ">
+          <ol className="flex flex-row gap-5 text-xl ">
             <NavLinks linkTekst={"Mac"}></NavLinks>
             <NavLinks linkTekst={"iPhone"}></NavLinks>
             <NavLinks linkTekst={"iPad"}></NavLinks>
@@ -22,13 +22,13 @@ const Header = () => {
             <NavLinks linkTekst={"Support"}></NavLinks>
           </ol>
           <div className="flex flex-row ">
-            <a className="hover:text-green-400" href="#">
-              <IoSearch className="text-l" />
+            <a className="hover:text-[#B6CCDA]" href="#">
+              <IoSearch className="text-xl" />
             </a>
 
-            <IoRemoveOutline className="rotate-90 text-l" />
+            <IoRemoveOutline className="rotate-90 text-xl" />
             <a className="hover:text-green-400" href="#">
-              <FiShoppingBag className="text-l" />
+              <FiShoppingBag className="text-xl hover:text-[#B6CCDA]" />
             </a>
           </div>
         </nav>

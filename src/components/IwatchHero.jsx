@@ -1,7 +1,8 @@
+import Image from "next/image";
 const IwatchHero = ({ imgNavn, imgBeskrivelse }) => {
   return (
     <div>
-      <img src={imgNavn} alt={imgBeskrivelse} />
+      <Image src={imgNavn} alt={imgBeskrivelse} />
     </div>
   );
 };
